@@ -1,0 +1,127 @@
+<!--
+MIT License
+
+Copyright (c) 2023-2024 Douglas Robertson & REFSIX Ltd
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Initially programmed by: Douglas Robertson (douglas@edgeoftheearth.com)
+-->
+<layout id="NumberPicker">
+    <label id="TitleLabel" x="center" y="40" font="Graphics.FONT_MEDIUM" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_LT_GRAY" />
+    <drawable id="Number1" class="PickerButton">
+        <param name="xpos">100</param>
+        <param name="ypos">108</param>
+        <param name="height">74</param>
+        <param name="width">100</param>
+        <param name="text">1</param>
+        <param name="font">Graphics.FONT_NUMBER_MILD</param>
+    </drawable>
+    <drawable id="Number2" class="PickerButton">
+        <param name="xpos">208</param>
+        <param name="ypos">108</param>
+        <param name="height">74</param>
+        <param name="width">100</param>
+        <param name="text">2</param>
+        <param name="font">Graphics.FONT_NUMBER_MILD</param>
+    </drawable>
+    <drawable id="Number3" class="PickerButton">
+        <param name="xpos">315</param>
+        <param name="ypos">108</param>
+        <param name="height">74</param>
+        <param name="width">100</param>
+        <param name="text">3</param>
+        <param name="font">Graphics.FONT_NUMBER_MILD</param>
+    </drawable>
+    <drawable id="Number4" class="PickerButton">
+        <param name="xpos">100</param>
+        <param name="ypos">190</param>
+        <param name="height">74</param>
+        <param name="width">100</param>
+        <param name="text">4</param>
+        <param name="font">Graphics.FONT_NUMBER_MILD</param>
+    </drawable>
+    <drawable id="Number5" class="PickerButton">
+        <param name="xpos">208</param>
+        <param name="ypos">190</param>
+        <param name="height">74</param>
+        <param name="width">100</param>
+        <param name="text">5</param>
+        <param name="font">Graphics.FONT_NUMBER_MILD</param>
+    </drawable>
+    <drawable id="Number6" class="PickerButton">
+        <param name="xpos">315</param>
+        <param name="ypos">190</param>
+        <param name="height">74</param>
+        <param name="width">100</param>
+        <param name="text">6</param>
+        <param name="font">Graphics.FONT_NUMBER_MILD</param>
+    </drawable>
+    <drawable id="Number7" class="PickerButton">
+        <param name="xpos">100</param>
+        <param name="ypos">272</param>
+        <param name="height">74</param>
+        <param name="width">100</param>
+        <param name="text">7</param>
+        <param name="font">Graphics.FONT_NUMBER_MILD</param>
+    </drawable>
+    <drawable id="Number8" class="PickerButton">
+        <param name="xpos">208</param>
+        <param name="ypos">272</param>
+        <param name="height">74</param>
+        <param name="width">100</param>
+        <param name="text">8</param>
+        <param name="font">Graphics.FONT_NUMBER_MILD</param>
+    </drawable>
+    <drawable id="Number9" class="PickerButton">
+        <param name="xpos">315</param>
+        <param name="ypos">272</param>
+        <param name="height">74</param>
+        <param name="width">100</param>
+        <param name="text">9</param>
+        <param name="font">Graphics.FONT_NUMBER_MILD</param>
+    </drawable>
+    <drawable id="Number0" class="PickerButton">
+        <param name="xpos">208</param>
+        <param name="ypos">354</param>
+        <param name="height">74</param>
+        <param name="width">100</param>
+        <param name="text">0</param>
+        <param name="font">Graphics.FONT_NUMBER_MILD</param>
+    </drawable>
+    <drawable id="OkayLabel" class="PickerButton">
+        <param name="xpos">100</param>
+        <param name="ypos">345</param>
+        <param name="height">52</param>
+        <param name="width">100</param>
+        <param name="text">"OK"</param>
+        <param name="font">Graphics.FONT_SMALL</param>
+        <param name="bgcolor">Graphics.COLOR_TRANSPARENT</param>
+    </drawable>
+    <drawable id="DeleteLabel" class="PickerButton">
+        <param name="xpos">315</param>
+        <param name="ypos">345</param>
+        <param name="height">52</param>
+        <param name="width">100</param>
+        <param name="text">"&lt;&lt;"</param>
+        <param name="font">Graphics.FONT_SMALL</param>
+        <param name="bgcolor">Graphics.COLOR_TRANSPARENT</param>
+    </drawable>
+
+</layout>
